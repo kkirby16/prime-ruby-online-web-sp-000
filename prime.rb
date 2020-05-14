@@ -7,7 +7,7 @@ def prime?(number)
     return false 
   elsif number == 2 
     return true 
-  (2..number-1).each { |int| number % int == 0} 
+  elsif (2..number-1).each { |int| number % int == 0} 
   return false
 else 
   return true
