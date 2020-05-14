@@ -1,4 +1,11 @@
 # Add  code here!
 
-def prime?(integer)
+def prime?(number)
+  if !number.integer?
+    return false 
+  elsif number < 2 
+    return false 
+  elsif number == 2 
+    return true 
+  elsif  
 end
