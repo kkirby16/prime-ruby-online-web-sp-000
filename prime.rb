@@ -10,7 +10,7 @@ def prime?(number)
   elsif (2..number-1).each { |int| number % int == 0} 
   return false
 else 
-  true
+  return true
 
 end 
 end
