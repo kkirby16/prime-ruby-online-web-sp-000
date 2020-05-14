@@ -9,6 +9,7 @@ def prime?(number)
     return true 
   (2..number-1).each do |int| if number % int == 0
   return false
+else 
   true
 end 
 end
