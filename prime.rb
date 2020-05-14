@@ -1,4 +1,4 @@
 # Add  code here!
 
-def is_prime?(integer)
+def prime?(integer)
 end
