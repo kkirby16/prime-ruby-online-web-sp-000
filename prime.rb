@@ -9,5 +9,7 @@ def prime?(number)
     return true 
   end
  if (2..number-1).each { |int| number % int == 0} 
+   return false 
+ else 
 true
 end
