@@ -8,6 +8,6 @@ def prime?(number)
   elsif number == 2 
     return true 
   end
- (2..number-1).each { |int| return false if number % int == 0} 
+ if (2..number-1).each { |int| number % int == 0} 
 true
 end
